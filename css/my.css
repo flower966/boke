@@ -1,0 +1,262 @@
+/*
+* @Author: Lenovo
+* @Date:   2018-03-15 09:21:54
+* @Last Modified by:   Lenovo
+* @Last Modified time: 2018-03-17 16:27:14
+*/
+@import url("base.css");
+body{
+	height: 20rem;
+}
+@font-face {
+  font-family: 'iconfont';  /* project id 590355 */
+  src: url('https://at.alicdn.com/t/font_590355_e6zn5vdw6sqncdi.eot');
+  src: url('https://at.alicdn.com/t/font_590355_e6zn5vdw6sqncdi.eot?#iefix') format('embedded-opentype'),
+  url('https://at.alicdn.com/t/font_590355_e6zn5vdw6sqncdi.woff') format('woff'),
+  url('https://at.alicdn.com/t/font_590355_e6zn5vdw6sqncdi.ttf') format('truetype'),
+  url('https://at.alicdn.com/t/font_590355_e6zn5vdw6sqncdi.svg#iconfont') format('svg');
+}
+.iconfont
+{
+	font-family:'iconfont';
+}
+i
+{
+	font-style: normal;
+}
+/* 头部 */
+.tou{
+	width: 100%;
+	height: 5rem;
+	background: #FFB6C1;
+}
+.return{
+	width: 100%;
+	height: 1.5rem;
+}
+.icon1{
+	font-size: 0.5rem;
+	color: #fff;
+	line-height: 1.5rem;
+	margin-left: 0.5rem;
+}
+.people{
+	width: 100%;
+	height: 2.5rem;
+	overflow: hidden;
+}
+.touxiang{
+	width: 1.5rem;
+	height: 1.5rem;
+	background: orange;
+	border-radius: 50%;
+	margin-top: 0.3rem;
+	margin-left: 0.5rem;
+	float: left;
+}
+.touxiang img{
+	width: 100%;
+	border-radius: 50%
+}
+.people h5{
+	font-size: 0.5rem;
+	font-family: '宋体';
+	color: #fff;
+    margin-top: 0.5rem;
+    margin-left: 2.5rem;
+}
+.shenqing{
+	width: 1.7rem;
+	height: 0.5rem;
+	background: orange;
+	border-radius: 3rem;
+	margin-top: 0.2rem;
+    margin-left: 2.5rem;
+}
+.shenqing p{
+	font-size: 0.2rem;
+	color: #fff;
+	margin-left: 0.18rem;
+}
+.dongtai{
+	width: 100%;
+	height: 0.5rem;
+	/* background: pink; */
+}
+.hezi{
+	width: calc(100%/3);
+	height: 100%;
+	/* background: skyblue; */
+	border-right: 0.03rem solid #9f9f9f;
+	float: left;
+	box-sizing: border-box;
+}
+.hezi1{
+	border-right: 0;
+}
+.zi1{
+	font-size: 0.4rem;
+	color: #9f9f9f;
+	float: left;
+	margin-left: 1rem;
+}
+.zi2{
+	font-size: 0.4rem;
+	color: #fff;
+}
+/* 收藏 */
+.like{
+	width: 100%;
+	height: 2rem;
+	background: #fff;
+	margin-top: 0.3rem;
+	border-bottom: 0.4rem solid #f4f5f7;
+}
+.small{
+	width: calc(100%/3);
+	height: 100%;
+	background: #fff;
+	float: left;
+}
+.icon2{
+	font-size: 0.8rem;
+	color: #f29420;
+	margin-left: 1.45rem;
+}
+.small p{
+	font-size: 0.42rem;
+	color: #000;
+	text-align: center;
+	margin-top: 0.2rem;
+}
+.icon5{
+	font-size: 0.8rem;
+	color: #f25c89;
+	margin-left: 1.45rem;
+}
+.icon6{
+	font-size: 0.8rem;
+	color: #6d93f4;
+	margin-left: 1.45rem;
+}
+/* 消息 */
+.kuang{
+	width: 100%;
+	height: 1.5rem;
+	background: #fff;
+	border-bottom: 0.4rem solid #f4f5f7;
+}
+.kuang h5{
+    font-size: 0.45rem;
+    color: #313131;
+    line-height: 1.5rem;
+    margin-left: 0.5rem;
+    float: left;
+}
+.kuang h4{
+	font-size: 0.5rem;
+	color: #d7d7d7;
+	float: right;
+	line-height: 1.5rem;
+	margin-right: 0.5rem;
+}
+.kuang1{
+	width: 100%;
+	height: 3.2rem;
+	background: #fff;
+	border-bottom: 0.1rem solid #f4f5f7;
+}
+.kuang2{
+	width: 100%;
+	height: 1.5rem;
+	background: #fff;
+	border-bottom: 0.1rem solid #f4f5f7;
+}
+.kuang2 h5{
+    font-size: 0.45rem;
+    color: #313131;
+    line-height: 1.5rem;
+    margin-left: 0.5rem;
+    float: left;
+}
+.kuang2 h4{
+	font-size: 0.5rem;
+	color: #d7d7d7;
+	float: right;
+	line-height: 1.5rem;
+	margin-right: 0.5rem;
+}
+.ku{
+	width: 100%;
+	height: 3.2rem;
+	background: #fff;
+	border-bottom: 0.1rem solid #f4f5f7;
+}
+.kua{
+	width: 100%;
+	height: 1.5rem;
+	background: #fff;
+	border-bottom: 0.1rem solid #f4f5f7;
+}
+.kua h5{
+	font-size: 0.45rem;
+	color: #313131;
+	line-height: 1.5rem;
+    margin-left: 0.5rem;
+    float: left;
+}
+.kua h4{
+	font-size: 0.5rem;
+	color: #d7d7d7;
+	float: right;
+	line-height: 1.5rem;
+	margin-right: 0.5rem;
+}
+/* tab */
+.tab{
+	width: 100%;
+	height: 1.45rem;
+	background: #fefefe;
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	border-top: 1px solid #f2f2f2;
+}
+.shouye{
+	width: calc(100%/4);
+	height: 100%;
+	background: #fefefe;
+	float: left;
+}
+.icon3{
+	font-size: 0.66rem;
+	color: #FFB6C1;
+	margin-left: 0.18rem;
+}
+.icon4{
+	font-size: 0.66rem;
+	color: #b8aaa9;
+	/* margin-left: 0.18rem; */
+}
+.boxx{
+	display: block;
+	width: 1rem;
+	height: 1.2rem;
+	margin: 0.1rem auto 0;
+}
+.boxx p{
+	font-size: 0.35rem;
+	color: #FFB6C1;
+	text-align: center;
+}
+.boxx1{
+	display: block;
+	width: 1rem;
+	height: 1.2rem;
+	margin: 0.1rem auto 0;
+}
+.boxx1 p{
+	font-size: 0.35rem;
+	color: #303030;7
+	text-align: center;
+}
